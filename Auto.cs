@@ -10,9 +10,11 @@ namespace KlassenDefinieren
     {
         public string marke;
         public int bauJahr;
+        private int aktuelleGeschwindigkeit;
 
          public void Beschleunigung()
          {
+            aktuelleGeschwindigkeit = 100;
             if (istSchnell())
             {
                Console.WriteLine("Habe schnell beschleunigung Year");
