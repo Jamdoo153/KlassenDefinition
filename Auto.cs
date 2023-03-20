@@ -19,7 +19,7 @@ namespace KlassenDefinieren
             }
             else
             {
-               Console.WriteLine("Habe normal beschleunigt ööööh");
+               Console.WriteLine("Habe normal beschleunigt, acht wie doof");
             }
             }
             private bool istSchnell()
