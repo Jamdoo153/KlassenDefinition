@@ -8,9 +8,16 @@ namespace KlassenDefinieren
 {
     internal class Auto
     {
-        public string marke;
+        private string marke;
         public int bauJahr;
         private int aktuelleGeschwindigkeit;
+
+        public Auto(string autoMarke)
+        {
+            marke = autoMarke;
+            bauJahr = 0;
+            aktuelleGeschwindigkeit = 0;
+        }
 
          public void Beschleunigung()
          {

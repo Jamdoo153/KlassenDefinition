@@ -5,14 +5,11 @@
        
         static void Main(string[] args)
         {
-            Auto MyCar = new Auto();
-            Auto YouCar = new Auto();
-            Auto ChiefCar = new Auto();
-            MyCar.marke = "VW";
+            Auto MyCar = new Auto("VW");
+            Auto YouCar = new Auto("Audi");
+            Auto ChiefCar = new Auto("Porsche");
             MyCar.bauJahr = 13;
-            YouCar.marke = "Audi";
             YouCar.bauJahr = 8;
-            ChiefCar.marke = "Porsche";
             ChiefCar.bauJahr = 1;
 
             MyCar.Beschleunigung();
