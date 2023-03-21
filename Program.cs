@@ -8,9 +8,9 @@
             Auto MyCar = new Auto("VW");
             Auto YouCar = new Auto("Audi");
             Auto ChiefCar = new Auto("Porsche");
-            MyCar.bauJahr = 13;
-            YouCar.bauJahr = 8;
-            ChiefCar.bauJahr = 1;
+            MyCar.BauJahr = 13;
+            YouCar.BauJahr = 8;
+            ChiefCar.BauJahr = 1;
 
             MyCar.Beschleunigung();
             YouCar.Beschleunigung();
